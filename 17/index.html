@@ -133,7 +133,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20210609121642">
+        <link rel="stylesheet" href="/open-sdg-site-starter/assets/css/style.css?v=20210609134746">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -143,8 +143,12 @@ var translations = {
         <link rel="stylesheet" href="https://bowercdn.net/c/leaflet.zoomhome-latest/dist/leaflet.zoomhome.css"  crossorigin=""/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@2.9.7/dist/leaflet-search.min.css" crossorigin=""><!-- ShareThis BEGIN --><!-- ShareThis END -->
 
+        
+
     </head>
-<body class="language-en layout-goal-by-target-vertical">
+<body class="language-en
+layout-goal-by-target-vertical
+">
 <!-- <div class="container"> -->
 
 
@@ -167,10 +171,39 @@ var translations = {
 
     <div class="logo-and-mobile-widgets">
       <a class="navbar-brand" href="/open-sdg-site-starter/" id="home">
-    <img src="/open-sdg-site-starter/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
+    <img src="" alt="" />
 </a>
       <div class="mobile-widgets">
-    <ul id='accessibility-nav' class='contrast-switcher'></ul><div class="language-toggle-mobile">
+    <ul id='accessibility-nav' class='contrast-switcher'>
+        
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+    </ul><div class="language-toggle-mobile">
         <div class="language-toggle-container">
   
   <div class="btn-group language-toggle-dropdown ">
@@ -221,7 +254,35 @@ var translations = {
 
 
 
-        </li></ul>
+        </li>
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+        </ul>
       </div>
     </div>
 
@@ -267,6 +328,36 @@ var translations = {
 
 
 </li>
+
+
+
+    <li class="nav-link contrast contrast-default contrast-type-default">
+        <a title="Disable high contrast"
+           aria-label="Disable high contrast"
+           data-contrast-switch-to="default"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="default"
+
+        >A</a>
+    </li>
+    <li class="nav-link contrast contrast-high contrast-type-default">
+        <a title="Enable high contrast"
+           aria-label="Enable high contrast"
+           data-contrast-switch-to="high"
+           href="javascript:void(0)"
+           data-on="click"
+data-event-category="Accessibility"
+data-event-action="Change contrast setting"
+data-event-label="high"
+
+        >A</a>
+    </li>
+
+
+
 </ul>
 
     </li>
@@ -297,6 +388,7 @@ var translations = {
 </li><li class="nav-link ">
     <a href="/open-sdg-site-starter/news">Updates</a>
 </li>
+
 </ul>
 
     </div>
@@ -336,6 +428,7 @@ var translations = {
   </div>
 </div>
 
+
 <div id="main-content" class="container" role="main">
 
   
@@ -358,11 +451,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -370,19 +458,18 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-1-1">Total government revenue as a proportion of GDP, by source</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -393,9 +480,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-1-2">Proportion of domestic budget funded by domestic taxes</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -413,11 +504,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -425,9 +511,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-2-1">Net official development assistance, total and to least developed countries, as a proportion of the Organization for Economic Cooperation and Development (OECD) Development Assistance Committee donors’ gross national income (GNI)</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -445,11 +535,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -457,19 +542,18 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-3-1">Foreign direct investment (FDI), official development assistance and South-South cooperation as a proportion of total domestic budget</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -480,9 +564,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-3-2">Volume of remittances (in United States dollars) as a proportion of total GDP</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -500,11 +588,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -512,9 +595,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-4-1">Debt service as a proportion of exports of goods and services</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -532,11 +619,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -544,9 +626,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-5-1">Number of countries that adopt and implement investment promotion regimes for least developed countries</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -564,11 +650,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -576,19 +657,18 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-6-1">Number of science and/or technology cooperation agreements and programmes between countries, by type of cooperation</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -599,9 +679,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-6-2">Fixed Internet broadband subscriptions per 100 inhabitants, by speed</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -619,11 +703,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -631,9 +710,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-7-1">Total amount of approved funding for developing countries to promote the development, transfer, dissemination and diffusion of environmentally sound technologies</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -651,11 +734,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -663,9 +741,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-8-1">Proportion of individuals using the Internet</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -683,11 +765,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -695,9 +772,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-9-1">Dollar value of financial and technical assistance (including through North-South, South‐South and triangular cooperation) committed to developing countries</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -715,11 +796,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -727,9 +803,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-10-1">Worldwide weighted tariff-average</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -747,11 +827,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -759,9 +834,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-11-1">Developing countries’ and least developed countries’ share of global exports</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -779,11 +858,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -791,9 +865,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-12-1">Average tariffs faced by developing countries, least developed countries and small island developing States</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -811,11 +889,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -823,9 +896,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-13-1">Macroeconomic Dashboard</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -843,11 +920,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -855,9 +927,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-14-1">Number of countries with mechanisms in place to enhance policy coherence of sustainable development</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -875,11 +951,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -887,9 +958,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-15-1">Extent of use of country-owned results frameworks and planning tools by providers of development cooperation</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -907,11 +982,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -919,9 +989,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-16-1">Number of countries reporting progress in multi-stakeholder development effectiveness monitoring frameworks that support the achievement of the sustainable development goals</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -939,11 +1013,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -951,9 +1020,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-17-1">Amount of United States dollars committed to public-private and civil society partnerships</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -971,11 +1044,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -983,19 +1051,18 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-18-1">Proportion of sustainable development indicators produced at the national level with full disaggregation when relevant to the target, in accordance with the Fundamental Principles of Official Statistics</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -1006,19 +1073,18 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-18-2">Number of countries that have national statistical legislation that complies with the Fundamental Principles of Official Statistics</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -1029,9 +1095,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-18-3">Number of countries with a national statistical plan that is fully funded and under implementation, by source of funding</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -1049,11 +1119,6 @@ var translations = {
           
           
           
-          
-          
-          
-          
-          
 
           <div class="goal-indicator">
             <h4>
@@ -1061,19 +1126,18 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-19-1">Dollar value of all resources made available to strengthen statistical capacity in developing countries</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
         
 
-          
-          
-          
-          
-          
           
           
           
@@ -1084,9 +1148,13 @@ var translations = {
             </h4>
             <span class="indicator-name"><a href="/open-sdg-site-starter/17-19-2">Proportion of countries that (a) have conducted at least one population and housing census in the last 10 years; and (b) have achieved 100 per cent birth registration and 80 per cent death registration</a></span>
             <span class="sr-only">Indicator status</span>
-            <span class="status notstarted">
-              Exploring data sources
-            </span>
+            
+
+
+<span class="status notstarted">
+    Exploring data sources
+</span>
+
             
 
           </div>
@@ -1125,6 +1193,8 @@ var translations = {
                 </li>
               
             
+            
+            <li><a href="/open-sdg-site-starter/config">Configuration</a></li>
             </ul>
         </div>
       </div>
@@ -1157,12 +1227,12 @@ var translations = {
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20210609121642'></script>
+<script src='/open-sdg-site-starter/assets/js/sdg.js?v=20210609134746'></script>
 
 
     
     
-    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20210609121642"></script><script>
+    <script src="/open-sdg-site-starter/assets/js/custom.js?v=20210609134746"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
